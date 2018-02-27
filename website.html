@@ -2,21 +2,57 @@
 <html>
 <title> Club Café RIT </title>
 <head>
-<style>
-		<img id="image" src="https://pbs.twimg.com/profile_images/776075080849776642/KwcwNEj9_400x400.jpg">
-		
-		body{color: black;}
+<style>	
 		h1 {
-			
 			background-color: Orange;
-			font-size: 72px;
-			text-align: center;	
+			<!--font-size: 72px;-->
+			text-align: left;	
+		}
+		body{
+			background-color: Orange;
+			color: black;
+		}
+		buttn-group{
+			color:Green 
+		}
+		.btn-group button {
+			text-align: right;
+			background-color: #4CAF50; /* Green background */
+			border: 1px solid green; /* Green border */
+			color: white; /* White text */
+			padding: 10px 24px; /* Some padding */
+			cursor: pointer; /* Pointer/hand icon */
+			float: left; /* Float the buttons side by side */
+		}
+
+		/* Clear floats (clearfix hack) */
+		.btn-group:after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+		.btn-group button:not(:last-child) {
+			border-right: none; /* Prevent double borders */
+		}
+
+		/* Add a background color on hover */
+		.btn-group button:hover {
+			background-color: #3e8e41;
 		}
 	
 </style>
 </head>
+<h1><a href="https://www.facebook.com/ritclubcafe/" target="_blank">
+		<header>
+		<img src="https://pbs.twimg.com/profile_images/776075080849776642/KwcwNEj9_400x400.jpg" height="72" width="72">
+	</a></h1>
 <body>	
-	<h1><a href="https://www.facebook.com/ritclubcafe/" target="_blank"><header><img src="https://pbs.twimg.com/profile_images/776075080849776642/KwcwNEj9_400x400.jpg"></a></h1>
-	<a href="https://www.facebook.com/ritclubcafe/"><img src="https://pbs.twimg.com/profile_images/776075080849776642/KwcwNEj9_400x400.jpg"></a>
+	
+	<div class="btn-group">
+		<button>Apple</button>
+		<button>Samsung</button>
+		<button>Sony</button>
+	</div>
 </body>
 </html>
