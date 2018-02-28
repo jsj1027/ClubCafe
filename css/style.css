@@ -1,6 +1,6 @@
 header{
 		margin-top: 0;
-		background: white;
+		background: orange;
 	}
 
 	body{
@@ -10,7 +10,7 @@ header{
 	}
 
 	.home {
-		background-color: #7a4e09; /* Brown background */
+		background-color: #3D3528; /* Brown background */
 		border: 1px solid brown; /* brown border */
 		color: white; /* White text */
 		padding: 10px 24px; /* Some padding */
