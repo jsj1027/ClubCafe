@@ -10,8 +10,8 @@ header{
 	}
 
 	.home {
-		background-color: #3D3528; /* Brown background */
-		border: 1px solid brown; /* brown border */
+		background-color: #AA6808; /* Brown background */
+		border: 1px #AA6808; /* brown border */
 		color: white; /* White text */
 		padding: 10px 24px; /* Some padding */
 		text-align: center;
@@ -21,4 +21,6 @@ header{
 		position: relative;
 		
 	}
-	
+	.home button:hover {
+    background-color: #3e8e41;
+}
